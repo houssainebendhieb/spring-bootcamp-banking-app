@@ -25,9 +25,5 @@ public class BankingAppApplication {
 	public static void main(String[] args) {
 		SpringApplication.run(BankingAppApplication.class, args);
 	}
-	@Bean
-	CommandLineRunner commandLineRunner(RoleRepository roleRepository, AccountRepository accountRepository, UserRepository userRepository) {
-		return args -> {
-		};
-	};
+
 }
